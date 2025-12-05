@@ -1,0 +1,46 @@
+/* styles.css */
+
+body {
+    /* Beautiful purple → blue → teal gradient */
+    background: linear-gradient(to right, #6a3093, #a044ff, #3f87a6);
+
+    /* Clean modern font */
+    font-family: Arial, sans-serif;
+
+    /* White text for contrast */
+    color: white;
+
+    /* Remove default spacing */
+    margin: 0;
+    padding: 0;
+
+    /* Flexbox center layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Full screen height */
+    height: 100vh;
+}
+
+/* Optional main content box */
+.container {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px 60px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+/* Heading style */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Paragraph style */
+p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
